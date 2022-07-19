@@ -1,0 +1,21 @@
+.container{
+border: 2px solid royalblue;
+display: flex; 
+/* justify-content: space-around;
+align-items: center; */
+/* flex-wrap: wrap; */
+align-items: stretch;
+
+height: 300px;
+
+}
+.box{
+    width: 100px;
+    /* height: 100px; */
+    font-weight: 700;
+    font-size: 2em;
+    border: 3px dotted blueviolet;
+}
+#box2{
+    flex-grow: 1;
+}
